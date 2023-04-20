@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 400;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 500;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'CircularStd';
+  font-weight: 700;
+  font-style: normal;
+  src: local('CircularStd'), url('CircularStd-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MyH1Font';
+  font-weight: 700;
+  font-style: normal;
+  src: local('MyHeadFont'), url('Font for H1 Header, Headline, Footer.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MyH2Font';
+  font-weight: 700;
+  font-style: normal;
+  src: local('MyH2Font'), url('Font for H2 Main Slogans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MyNormalFont';
+  font-weight: 700;
+  font-style: normal;
+  src: local('MyNormalFont'), url('Font for normal Text on Website.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Roboto-Bold'), url('Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Roboto-Bold'), url('Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Roboto-Regular'), url('Roboto-Regular.ttf') format('truetype');
+}
