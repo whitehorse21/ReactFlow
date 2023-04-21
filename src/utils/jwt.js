@@ -16,19 +16,6 @@ const isValidToken = (accessToken) => {
   return decoded.exp > currentTime;
 };
 
-//  const handleTokenExpired = (exp) => {
-//   let expiredTimer;
-
-//   window.clearTimeout(expiredTimer);
-//   const currentTime = Date.now();
-//   const timeLeft = exp * 1000 - currentTime;
-//   console.log(timeLeft);
-//   expiredTimer = window.setTimeout(() => {
-//     console.log('expired');
-//     // You can do what ever you want here, like show a notification
-//   }, timeLeft);
-// };
-
 const setSession = (accessToken) => {
   if (accessToken) {
     localStorage.setItem('accessToken', accessToken);
