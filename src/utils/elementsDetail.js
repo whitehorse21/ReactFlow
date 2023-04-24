@@ -46,6 +46,14 @@ const method12 = () => {
   alert('this is element 12');
 };
 
+const method13 = () => {
+  alert('this is element 13');
+};
+
+const method14 = () => {
+  alert('this is element 14');
+};
+
 const elementsDetail = new Map();
 
 const detailArray = [
@@ -108,6 +116,16 @@ const detailArray = [
     name: 'Element12',
     type: 'output',
     method: method12
+  },
+  {
+    name: 'Element13',
+    type: 'output',
+    method: method13
+  },
+  {
+    name: 'Element14',
+    type: 'output',
+    method: method14
   }
 ];
 

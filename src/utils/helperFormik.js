@@ -64,10 +64,8 @@ export default function HelperFormik({ formik, placement = 'right' }) {
     errors,
     touched,
     isValid,
-    // submitCount,
     isSubmitting,
     isValidating,
-    // initialValues,
     validateOnBlur,
     validateOnMount,
     validateOnChange
@@ -108,11 +106,6 @@ export default function HelperFormik({ formik, placement = 'right' }) {
           <code>{JSON.stringify(values, null, 2)}</code>
         </BlockStyle>
 
-        {/* <BlockStyle>
-            <LabelStyle>initialValues</LabelStyle>
-            <code>{JSON.stringify(initialValues, null, 2)}</code>
-          </BlockStyle> */}
-
         <BlockStyle>
           <LabelStyle>errors</LabelStyle>
           <code>{JSON.stringify(errors, null, 2)}</code>
@@ -128,12 +121,6 @@ export default function HelperFormik({ formik, placement = 'right' }) {
           <code>{JSON.stringify(touched, null, 2)}</code>
         </BlockStyle>
 
-        {/* <BlockStyle>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <LabelStyle>submitCount</LabelStyle>
-              <code>:{JSON.stringify(submitCount)}</code>
-            </Box>
-          </BlockStyle> */}
         <BlockStyle>
           {BoolValue('isSubmitting', isSubmitting)}
           {BoolValue('dirty', dirty)}
